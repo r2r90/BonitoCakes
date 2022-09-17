@@ -1,0 +1,214 @@
+[
+    {
+        "name": "Fruit",
+        "price": "25.39",
+        "description": "This fantastic cake with fresh fruits will make your day colorful. It is made with cream, each layer designed by fresh fruits. This cake suits any type of event.Expiration date – 5 days.Keep in 2°C -6°C degrees and relative humidity of not above than 75%.",
+        "ratings": 4.5,
+        "images": [
+            {
+                "public_id": "products/aniv_bwsxel",
+                "url": "https://res.cloudinary.com/aghartur/image/upload/v1663363892/products/img1_zwdnzg.jpg"
+            }
+        ],
+        "category": "Anniversary",
+        "stock": 20,
+        "numOfReviews": 32,
+        "reviews": []
+    },
+    {
+        "name": "Glamour",
+        "price": "48.50",
+        "description": "Chocolate biscuit filled with a light cream-mousse with currant taste – a symphony of unique taste.Expiration date – 5 days.Keep in 2°C -6°C degrees and relative humidity of not above than 75%.",
+        "ratings": 4.4,
+        "images": [
+            {
+                "public_id": "products/aniv1_gxstqf",
+                "url": "https://res.cloudinary.com/aghartur/image/upload/v1663365119/products/aniv1_gxstqf.jpg"
+            }
+        ],
+        "category": "Anniversary",
+        "stock": 7,
+        "numOfReviews": 2,
+        "reviews": []
+    },
+    {
+        "name": "Fruit garden",
+        "price": "450",
+        "description": "Wedding cakes are a valuable gift during the most important holiday of a couple in love. Our cakes are made from fresh and high-quality ingredients, with a delicious and distinctive design that will create a colorful background, where the wedding ceremony will remain an unforgettable beautiful day. Wedding cake are available in various sizes and prices, depending on the number of guests and delivery. Our cooks and cake designers use a variety of ingredients and tools.Create a cake that matches every style of wedding.Wedding cake order are accepted at our company’s shops.",
+        "ratings": 4.9,
+        "images": [
+            {
+                "public_id": "products/wedd-1_r0lv9s",
+                "url": "https://res.cloudinary.com/aghartur/image/upload/v1663365119/products/wedd-1_r0lv9s.jpg"
+            }
+        ],
+        "category": "Wedding",
+        "stock": 1,
+        "numOfReviews": 12,
+        "reviews": []
+    },
+    {
+        "name": "Caramel",
+        "price": "599.00 ",
+        "description": "Wedding cakes are a valuable gift during the most important holiday of a couple in love. Our cakes are made from fresh and high-quality ingredients, with a delicious and distinctive design that will create a colorful background, where the wedding ceremony will remain an unforgettable beautiful day. Wedding cake are available in various sizes and prices, depending on the number of guests and delivery. Our cooks and cake designers use a variety of ingredients and tools.Create a cake that matches every style of wedding.Wedding cake order are accepted at our company’s shops.",
+        "ratings": 4.5,
+        "images": [
+            {
+                "public_id": "products/wedd-2_rzafaq",
+                "url": "https://res.cloudinary.com/aghartur/image/upload/v1663365118/products/wedd-2_rzafaq.jpg"
+            }
+        ],
+        "category": "Wedding",
+        "stock": 1,
+        "numOfReviews": 112,
+        "reviews": []
+    },
+    {
+        "name": "Floral Elegance",
+        "price": "680",
+        "description": "Wedding cakes are a valuable gift during the most important holiday of a couple in love. Our cakes are made from fresh and high-quality ingredients, with a delicious and distinctive design that will create a colorful background, where the wedding ceremony will remain an unforgettable beautiful day. Wedding cake are available in various sizes and prices, depending on the number of guests and delivery. Our cooks and cake designers use a variety of ingredients and tools.Create a cake that matches every style of wedding.Wedding cake order are accepted at our company’s shops.",
+        "ratings": 4.7,
+        "images": [
+            {
+                "public_id": "products/wedd_wh6bqs",
+                "url": "https://res.cloudinary.com/aghartur/image/upload/v1663365118/products/wedd_wh6bqs.jpg"
+            }
+        ],
+        "category": "Wedding",
+        "stock": 1,
+        "numOfReviews": 27,
+        "reviews": []
+    },
+    {
+        "name": "Dragon",
+        "price": "27.99",
+        "description": "A dessert with a thin layer of whipped cream and a unique taste of walnut. Always on your table beside your coffee cup.",
+        "ratings": 3.7,
+        "images": [
+            {
+                "public_id": "products/boys2_pmwye7",
+                "url": "https://res.cloudinary.com/aghartur/image/upload/v1663365118/products/boys2_pmwye7.jpg"
+            }
+        ],
+        "category": "For Boys",
+        "stock": 6,
+        "numOfReviews": 6,
+        "reviews": []
+    },
+    {
+        "name": "Teddy Bear",
+        "price": "39.90",
+        "description": "This magical cake will decorate any of your events with its sweetness and unique taste. Banana and chocolate make perfect combination.",
+        "ratings": 4.7,
+        "images": [
+            {
+                "public_id": "products/boys1_jmjxpa",
+                "url": "https://res.cloudinary.com/aghartur/image/upload/v1663365119/products/boys1_jmjxpa.jpg"
+            }
+        ],
+        "category": "For Boys",
+        "stock": 7,
+        "numOfReviews": 222,
+        "reviews": []
+    },
+    {
+        "name": "Princess",
+        "price": "35.90",
+        "description": "Delicious combination of delicate biscuit, fresh fruit and airy cream from whipped cream.",
+        "ratings": 4.9,
+        "images": [
+            {
+                "public_id": "products/girls1_pgekqh",
+                "url": "https://res.cloudinary.com/aghartur/image/upload/v1663365117/products/girls1_pgekqh.jpg"
+            }
+        ],
+        "category": "For Girls",
+        "stock": 3,
+        "numOfReviews": 56,
+        "reviews": []
+    },
+    {
+        "name": "Rose",
+        "price": "50",
+        "description": "A multi-layered cake can be a macho, too. The layers contain cream filling with the mixture of walnut and brandy. Appreciate the real macho",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/girls_dcnrwe",
+                "url": "https://res.cloudinary.com/aghartur/image/upload/v1663365117/products/girls_dcnrwe.jpg"
+            }
+        ],
+        "category": "For Girls",
+        "stock": 500,
+        "numOfReviews": 1,
+        "reviews": []
+    },
+    {
+        "name": "Hazelnut",
+        "price": "38",
+        "description": "Delicate biscuit, hazelnut, butter cream with condensed milk and cognac is a good energy charge for gourmets",
+        "ratings": 4.3,
+        "images": [
+            {
+                "public_id": "products/bptm1_n84jwc",
+                "url": "https://res.cloudinary.com/aghartur/image/upload/v1663365117/products/girls_dcnrwe.jpg"
+            }
+        ],
+        "category": "Christening",
+        "stock": 500,
+        "numOfReviews": 17,
+        "reviews": []
+    },
+    {
+        "name": "Cutty",
+        "price": "50",
+        "description": "Chocolate biscuit filled with a light cream-mousse with currant taste – a symphony of unique taste",
+        "ratings": 4.5,
+        "images": [
+            {
+                "public_id": "products/baptem_xfonwd",
+                "url": "https://res.cloudinary.com/aghartur/image/upload/v1663365117/products/girls_dcnrwe.jpg"
+            }
+        ],
+        "category": "Christening",
+        "stock": 2,
+        "numOfReviews": 24,
+        "reviews": []
+    },
+    {
+        "name": "Amazon",
+        "price": "4.50",
+        "description": "Amazon will help you to make the day sweet. Tha cake includes a whipped cream and a valuable source of nutrients – cocoa.",
+        "ratings": 4.9,
+        "images": [
+            {
+                "public_id": "products/pie1_t1c9g0",
+                "url": "https://res.cloudinary.com/aghartur/image/upload/v1663365117/products/pie1_t1c9g0.jpg"
+            }
+        ],
+        "category": "Pies",
+        "stock": 500,
+        "numOfReviews": 79,
+        "reviews": []
+    },
+    {
+        "name": "Drunken cherry",
+        "price": "5.60",
+        "description": "Fresh cherry, seasoned in aromatic cognac, airy biscuit, chocolate cream – an ideal regale for dear guests.",
+        "ratings": 4.9,
+        "images": [
+            {
+                "public_id": "products/pie1-1_elkivr",
+                "url": "https://res.cloudinary.com/aghartur/image/upload/v1663368266/products/pie1-1_elkivr.jpg"
+            },
+            {
+                "public_id": "products/pie-1_fyszzj",
+                "url": "https://res.cloudinary.com/aghartur/image/upload/v1663368266/products/pie-1_fyszzj.jpg"
+            }
+        ],
+        "category": "Pies",
+        "stock": 500,
+        "numOfReviews": 68,
+        "reviews": []
+    }
+]
