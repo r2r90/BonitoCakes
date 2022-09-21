@@ -27,6 +27,7 @@ const ProductDetails = () => {
         <Loader />
       ) : (
         <Fragment>
+          <MetaData title={product.name} />
           <div className="container container-fluid">
             <div className="row f-flex justify-content-around">
               <div className="col-12 col-lg-5 img-fluid" id="product_image">
@@ -34,7 +35,7 @@ const ProductDetails = () => {
                   {product.images &&
                     product.images.map((image) => (
                       <Carousel.Item key={image.public_id}>
-                        <img className="d-block w-100" src={image.url} alt={product.title} />
+                        <img className="d-block w-100" src={image.url} alt={product.name} />
                       </Carousel.Item>
                     ))}
                 </Carousel>
@@ -70,10 +71,12 @@ const ProductDetails = () => {
 
                 <hr />
 
-                <p>Status: <span id="stock_status" className={product.stock > 0 ? 'greenColor' : 'redColor'}>
+                <p>
+                  Status:{' '}
+                  <span id="stock_status" className={product.stock > 0 ? 'greenColor' : 'redColor'}>
                     {product.stock > 0 ? 'Avalaible' : 'Not avalaible'}
-                   </span>
-                    </p>
+                  </span>
+                </p>
                 <hr />
 
                 <h4 className="mt-2">Description:</h4>
