@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import Pagination from 'react-js-pagination';
 import MetaData from './layouts/MetaData';
-
+import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { getProducts } from '../actions/productActions';
 import Product from './product/Product';
@@ -17,12 +17,16 @@ const Home = () => {
     (state) => state.products,
   );
 
+  const params = useParams();
+
+  const keyword = params.keyword;
+
   useEffect(() => {
     if (error) {
       return alert.error(error);
     }
-    dispatch(getProducts(currentPage));
-  }, [dispatch, alert, currentPage, error]);
+    dispatch(getProducts(keyword, currentPage));
+  }, [dispatch, alert, keyword, currentPage, error]);
 
   // * Pagination functions
   const setCurrentPageNo = (pageNumber) => {
