@@ -12,6 +12,7 @@
   "author": "Artur Aghasafyants",
   "license": "ISC",
   "dependencies": {
+    "@stripe/react-stripe-js": "^1.11.0",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.0",
     "cloudinary": "^1.32.0",
@@ -25,6 +26,7 @@
     "react-icons": "^4.4.0",
     "react-js-pagination": "^3.0.3",
     "sass": "^1.54.9",
+    "stripe": "^10.11.0",
     "validator": "^13.7.0"
   },
   "devDependencies": {

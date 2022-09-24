@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Link } from 'react-router-dom';
+import { Link,  useNavigate } from 'react-router-dom';
 import MetaData from '../layouts/MetaData';
 import { useDispatch, useSelector } from 'react-redux';
 import { addItemToCart, removeItemFromCart } from '../../actions/cartActions';
@@ -7,7 +7,7 @@ import { BsFillTrashFill } from 'react-icons/bs';
 
 const Cart = () => {
   const dispatch = useDispatch();
-
+  const navigate = useNavigate()
   const { cartItems } = useSelector((state) => state.cart);
 
   const increaseQty = (id, quantity, stock) => {
@@ -24,6 +24,10 @@ const Cart = () => {
   const removeCartItemHandler = (id) => {
     dispatch(removeItemFromCart(id));
   };
+
+  const checkoutHandler = () => {
+    navigate('/login?redirect=shipping')
+  }
 
   return (
     <Fragment>
@@ -108,7 +112,7 @@ const Cart = () => {
                 </p>
 
                 <hr />
-                <button id="checkout_btn" className="btn btn-primary btn-block">
+                <button id="checkout_btn" className="btn btn-primary btn-block" onClick={checkoutHandler}>
                   Check out
                 </button>
               </div>

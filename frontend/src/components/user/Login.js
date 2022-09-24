@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useAlert } from 'react-alert';
 import { useDispatch, useSelector } from 'react-redux';
 import Loader from '../layouts/Loader';
@@ -8,6 +8,7 @@ import { login, clearErrors } from '../../actions/userActions';
 
 const Login = () => {
   const navigate = useNavigate();
+  const location = useLocation();
   const alert = useAlert();
   const dispatch = useDispatch();
 
@@ -16,21 +17,23 @@ const Login = () => {
 
   const { isAuthenticated, error, loading } = useSelector((state) => state.auth);
 
+  const redirect = location.search ? location.search.split('=')[1] : '/';
+
   useEffect(() => {
     if (isAuthenticated) {
-      navigate('/');
+      navigate(`/${redirect}`);
     }
 
     if (error) {
       alert.error(error);
       dispatch(clearErrors());
     }
-  }, [dispatch, alert, isAuthenticated, error, navigate]);
+  }, [dispatch, alert, isAuthenticated, error, redirect, navigate]);
 
   const submitHandler = (e) => {
     e.preventDefault();
-    dispatch(login(email, password))
-}
+    dispatch(login(email, password));
+  };
 
   return (
     <Fragment>

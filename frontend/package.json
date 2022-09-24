@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
     "bootstrap": "^5.2.1",
+    "countries-list": "^2.6.1",
     "jquery": "^3.6.1",
     "popper.js": "^1.16.1",
     "rc-slider": "^9.6.5",
@@ -26,6 +27,7 @@
     "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^2.4.1",
     "sass": "^1.54.9",
+    "stripe": "^10.11.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
